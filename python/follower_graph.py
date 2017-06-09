@@ -44,6 +44,7 @@ def save_graph(graph):
 
 def main():
     api = connect();
+    # TODO my graph should connect related follwers to eachother
     username = 'e_soroush'
     focused_usernames = [] # accounts relationship betweeb your username
     filename = username + '.p'
