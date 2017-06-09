@@ -45,7 +45,7 @@ def save_graph(graph):
 def main():
     api = connect();
     username = 'e_soroush'
-    focused_usernames = []
+    focused_usernames = [] # accounts relationship betweeb your username
     filename = username + '.p'
     force = True
     if os.path.exists(filename) and force == False:
