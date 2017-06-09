@@ -29,7 +29,7 @@ def save_graph(graph):
         for follower in value['followers']:
             nodes_set.add(follower.id)
             account_map[follower.id] = follower.screen_name
-    graph_filename = 'graph.js'
+    graph_filename = '../js/graph.js'
     with open(graph_filename, 'w') as f:
         f.write('var nodes = [')
         for node in nodes_set:
